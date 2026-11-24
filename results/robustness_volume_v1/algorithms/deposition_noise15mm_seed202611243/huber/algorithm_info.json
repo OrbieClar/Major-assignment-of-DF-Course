@@ -1,0 +1,8 @@
+{
+  "elapsed_seconds": 0.2625036999997974,
+  "fit_iterations": 21,
+  "selection_info": {
+    "mode": "huber",
+    "fallback": false
+  }
+}

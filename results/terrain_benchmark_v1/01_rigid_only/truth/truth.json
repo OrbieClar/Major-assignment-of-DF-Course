@@ -1,0 +1,16 @@
+{
+  "case": "01_rigid_only",
+  "synthetic": true,
+  "true_volume_m3": 0.0,
+  "numerical_volume_m3": 0.0,
+  "quadrature_absolute_error_m3": 0.0,
+  "changed_moving_points": 0,
+  "changed_moving_fraction": 0.0,
+  "true_peak_height_m": 0.0,
+  "volume_definition": "Vertical volume between the clean height fields over the complete circular support; not a point-count estimate",
+  "input_fields_allowed_for_methods": [
+    "reference",
+    "moving"
+  ],
+  "truth_access": "Masks, source indices, correct poses and check points are only for evaluation/oracle controls, never for proposed-method fitting"
+}

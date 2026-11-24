@@ -1,0 +1,6 @@
+{
+  "constant_offset_volume": true,
+  "negative_volume_sign": true,
+  "added_removed_signs": true,
+  "expected_test_volume_m3": 6.4
+}

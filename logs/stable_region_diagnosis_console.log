@@ -1,0 +1,16 @@
+2026-11-24 15:33:21,042 INFO Starting 01_rigid_only: oracle retains 12257 reference / 12182 moving points
+2026-11-24 15:33:21,406 INFO 01_rigid_only all_points repeat -1: translation 1.4559 mm; stable pose 1.7561 mm
+2026-11-24 15:33:21,694 INFO 01_rigid_only oracle_stable repeat -1: translation 1.2414 mm; stable pose 1.6246 mm
+2026-11-24 15:33:22,984 INFO 01_rigid_only random_matched repeat 4: translation 2.5155 mm; stable pose 2.9125 mm
+2026-11-24 15:33:24,188 INFO 01_rigid_only random_matched repeat 9: translation 2.4234 mm; stable pose 2.6285 mm
+2026-11-24 15:33:25,415 INFO 01_rigid_only random_matched repeat 14: translation 1.6398 mm; stable pose 2.6422 mm
+2026-11-24 15:33:26,584 INFO 01_rigid_only random_matched repeat 19: translation 2.2332 mm; stable pose 2.2851 mm
+2026-11-24 15:33:26,584 INFO Starting 02_local_deposition: oracle retains 12257 reference / 12182 moving points
+2026-11-24 15:33:26,968 INFO 02_local_deposition all_points repeat -1: translation 7.2360 mm; stable pose 9.0700 mm
+2026-11-24 15:33:27,255 INFO 02_local_deposition oracle_stable repeat -1: translation 1.2414 mm; stable pose 1.6246 mm
+2026-11-24 15:33:28,605 INFO 02_local_deposition random_matched repeat 4: translation 7.7194 mm; stable pose 10.0375 mm
+2026-11-24 15:33:29,861 INFO 02_local_deposition random_matched repeat 9: translation 8.3108 mm; stable pose 10.2537 mm
+2026-11-24 15:33:31,081 INFO 02_local_deposition random_matched repeat 14: translation 7.9826 mm; stable pose 10.0227 mm
+2026-11-24 15:33:32,244 INFO 02_local_deposition random_matched repeat 19: translation 8.0524 mm; stable pose 9.9568 mm
+2026-11-24 15:33:32,929 INFO Diagnosis supported on current dataset: True; validation passed: True
+2026-11-24 15:33:32,929 INFO Deposition translation error all/oracle/random mean: 7.2360 / 1.2414 / 8.3531 mm

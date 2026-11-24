@@ -1,0 +1,12 @@
+{
+  "spacing_m": 0.21018714175472608,
+  "reference_normal_estimation_and_spacing_seconds": 0.07046070000069449,
+  "normal_residual_location_m": 0.0005545158542421981,
+  "normal_residual_sigma_m": 0.010509357087736305,
+  "normal_residual_threshold_m": 0.03152807126320892,
+  "patch_size_m": 1.2611228505283565,
+  "core_change_cells": 0,
+  "coarse_iterations": 15,
+  "normal_orientation": "+Z, assumes terrain-like height-field geometry",
+  "timing": "Each feature-using method is charged common preprocessing time even if it was cached; excludes file exports"
+}

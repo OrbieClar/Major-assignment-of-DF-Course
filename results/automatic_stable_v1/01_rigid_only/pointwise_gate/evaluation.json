@@ -1,0 +1,20 @@
+{
+  "case": "01_rigid_only",
+  "method": "pointwise_gate",
+  "method_label": "逐点法向残差筛选（消融）",
+  "retained_reference_points": 12270,
+  "retained_moving_points": 12280,
+  "icp_iterations": 17,
+  "elapsed_seconds": 0.31473349999760103,
+  "rotation_error_deg": 0.0007651831693249434,
+  "translation_error_mm": 0.47616322941805217,
+  "stable_holdout_pose_rmse_mm": 0.5086469802585362,
+  "stable_holdout_noisy_rmse_mm": 8.723430266531077,
+  "all_point_nn_after_rmse_mm": 70.93022476565123,
+  "change_region_pose_height_mae_mm": null,
+  "rejected_change_precision": 0.0,
+  "rejected_change_recall": null,
+  "rejected_unchanged_fraction": 0.06651463321930824,
+  "retained_change_points": 0,
+  "fallback": false
+}

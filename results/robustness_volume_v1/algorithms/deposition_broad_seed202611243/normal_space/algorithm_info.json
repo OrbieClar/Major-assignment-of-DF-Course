@@ -1,0 +1,8 @@
+{
+  "elapsed_seconds": 0.2385158999968553,
+  "fit_iterations": 20,
+  "selection_info": {
+    "fallback": false,
+    "mode": "hemisphere normal-space stratified sample"
+  }
+}

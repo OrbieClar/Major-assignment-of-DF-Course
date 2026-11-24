@@ -1,0 +1,16 @@
+{
+  "case": "02_local_deposition",
+  "synthetic": true,
+  "true_volume_m3": 10.602875205865551,
+  "numerical_volume_m3": 10.602872364578573,
+  "quadrature_absolute_error_m3": 2.8412869781391237e-06,
+  "changed_moving_points": 740,
+  "changed_moving_fraction": 0.05625237552261497,
+  "true_peak_height_m": 0.5,
+  "volume_definition": "Vertical volume between the clean height fields over the complete circular support; not a point-count estimate",
+  "input_fields_allowed_for_methods": [
+    "reference",
+    "moving"
+  ],
+  "truth_access": "Masks, source indices, correct poses and check points are only for evaluation/oracle controls, never for proposed-method fitting"
+}

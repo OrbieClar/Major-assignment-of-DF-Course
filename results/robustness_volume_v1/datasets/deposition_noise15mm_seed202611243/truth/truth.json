@@ -1,0 +1,27 @@
+{
+  "scenario": {
+    "name": "deposition_noise15mm",
+    "noise_sigma_m": 0.015,
+    "reference_keep": 0.9,
+    "moving_keep": 0.9,
+    "radius_m": 4.5,
+    "height_m": 0.5
+  },
+  "seed": 202611243,
+  "global_origin": [
+    652921.5374668216,
+    5189156.600508882,
+    2486.004430603096
+  ],
+  "center_local_xy_m": [
+    -8.73946982162306,
+    -0.6365958815440536
+  ],
+  "analytic_net_volume_m3": 10.602875205865551,
+  "changed_moving_points": 732,
+  "reference_points": 13238,
+  "moving_points": 13242,
+  "stable_holdout_points": 1467,
+  "model": "Clean piecewise-linear mother height field plus prescribed compact vertical polynomial bump; independent noisy vertex subsets",
+  "truth_access": "Evaluation only; input-only workers cannot read this folder"
+}

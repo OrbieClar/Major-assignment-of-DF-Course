@@ -1,0 +1,17 @@
+2026-11-24 15:53:29,512 INFO Input-only worker: 01_rigid_only
+2026-11-24 15:53:31,327 INFO Input-only worker: 02_local_deposition
+2026-11-24 15:53:33,588 INFO 01_rigid_only ordinary: translation 1.4559 mm; stable pose 1.7561 mm; kept 13220 / 13155
+2026-11-24 15:53:33,684 INFO 01_rigid_only trimmed_90: translation 0.0446 mm; stable pose 0.0868 mm; kept 13220 / 13155
+2026-11-24 15:53:33,779 INFO 01_rigid_only huber: translation 0.1079 mm; stable pose 0.1507 mm; kept 13220 / 13155
+2026-11-24 15:53:33,919 INFO 01_rigid_only normal_space: translation 6.3568 mm; stable pose 7.1260 mm; kept 6000 / 6000
+2026-11-24 15:53:34,069 INFO 01_rigid_only pointwise_gate: translation 0.4762 mm; stable pose 0.5086 mm; kept 12270 / 12280
+2026-11-24 15:53:34,213 INFO 01_rigid_only patch_no_dilation: translation 1.4559 mm; stable pose 1.7561 mm; kept 13219 / 13155
+2026-11-24 15:53:34,356 INFO 01_rigid_only patch_candidate: translation 1.4559 mm; stable pose 1.7561 mm; kept 13219 / 13155
+2026-11-24 15:53:34,465 INFO 02_local_deposition ordinary: translation 7.2360 mm; stable pose 9.0700 mm; kept 13220 / 13155
+2026-11-24 15:53:34,562 INFO 02_local_deposition trimmed_90: translation 2.5396 mm; stable pose 3.1500 mm; kept 13220 / 13155
+2026-11-24 15:53:34,662 INFO 02_local_deposition huber: translation 0.6507 mm; stable pose 0.8774 mm; kept 13220 / 13155
+2026-11-24 15:53:34,806 INFO 02_local_deposition normal_space: translation 5.6258 mm; stable pose 10.6710 mm; kept 6000 / 6000
+2026-11-24 15:53:34,952 INFO 02_local_deposition pointwise_gate: translation 0.9383 mm; stable pose 0.9751 mm; kept 11842 / 11825
+2026-11-24 15:53:35,097 INFO 02_local_deposition patch_no_dilation: translation 1.6153 mm; stable pose 2.1384 mm; kept 12788 / 12705
+2026-11-24 15:53:35,244 INFO 02_local_deposition patch_candidate: translation 1.4150 mm; stable pose 1.7755 mm; kept 12329 / 12256
+2026-11-24 15:53:35,689 INFO Finished; validation True; candidate vs best established control: False

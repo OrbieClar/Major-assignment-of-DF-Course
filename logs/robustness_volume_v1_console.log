@@ -1,0 +1,53 @@
+2026-11-24 16:27:21,198 INFO Fitting 1/21 rigid_control_seed202611241
+2026-11-24 16:27:23,221 INFO Fitting 2/21 rigid_control_seed202611242
+2026-11-24 16:27:25,359 INFO Fitting 3/21 rigid_control_seed202611243
+2026-11-24 16:27:27,356 INFO Fitting 4/21 deposition_nominal_seed202611241
+2026-11-24 16:27:29,549 INFO Fitting 5/21 deposition_nominal_seed202611242
+2026-11-24 16:27:31,576 INFO Fitting 6/21 deposition_nominal_seed202611243
+2026-11-24 16:27:33,694 INFO Fitting 7/21 deposition_noise15mm_seed202611241
+2026-11-24 16:27:35,706 INFO Fitting 8/21 deposition_noise15mm_seed202611242
+2026-11-24 16:27:37,804 INFO Fitting 9/21 deposition_noise15mm_seed202611243
+2026-11-24 16:27:39,916 INFO Fitting 10/21 deposition_sparse_seed202611241
+2026-11-24 16:27:41,617 INFO Fitting 11/21 deposition_sparse_seed202611242
+2026-11-24 16:27:43,272 INFO Fitting 12/21 deposition_sparse_seed202611243
+2026-11-24 16:27:45,012 INFO Fitting 13/21 deposition_low_seed202611241
+2026-11-24 16:27:47,196 INFO Fitting 14/21 deposition_low_seed202611242
+2026-11-24 16:27:49,263 INFO Fitting 15/21 deposition_low_seed202611243
+2026-11-24 16:27:51,439 INFO Fitting 16/21 excavation_seed202611241
+2026-11-24 16:27:53,613 INFO Fitting 17/21 excavation_seed202611242
+2026-11-24 16:27:55,754 INFO Fitting 18/21 excavation_seed202611243
+2026-11-24 16:27:57,932 INFO Fitting 19/21 deposition_broad_seed202611241
+2026-11-24 16:28:00,182 INFO Fitting 20/21 deposition_broad_seed202611242
+2026-11-24 16:28:02,447 INFO Fitting 21/21 deposition_broad_seed202611243
+2026-11-24 16:28:04,722 INFO Volume/pose evaluation 1/23 rigid_control_seed202611241
+2026-11-24 16:28:08,309 INFO Volume/pose evaluation 2/23 rigid_control_seed202611242
+2026-11-24 16:28:11,629 INFO Volume/pose evaluation 3/23 rigid_control_seed202611243
+2026-11-24 16:28:14,834 INFO Volume/pose evaluation 4/23 deposition_nominal_seed202611241
+2026-11-24 16:28:18,355 INFO Volume/pose evaluation 5/23 deposition_nominal_seed202611242
+2026-11-24 16:28:21,600 INFO Volume/pose evaluation 6/23 deposition_nominal_seed202611243
+2026-11-24 16:28:24,820 INFO Volume/pose evaluation 7/23 deposition_noise15mm_seed202611241
+2026-11-24 16:28:28,307 INFO Volume/pose evaluation 8/23 deposition_noise15mm_seed202611242
+2026-11-24 16:28:31,758 INFO Volume/pose evaluation 9/23 deposition_noise15mm_seed202611243
+2026-11-24 16:28:34,995 INFO Volume/pose evaluation 10/23 deposition_sparse_seed202611241
+2026-11-24 16:28:37,276 INFO Volume/pose evaluation 11/23 deposition_sparse_seed202611242
+2026-11-24 16:28:39,354 INFO Volume/pose evaluation 12/23 deposition_sparse_seed202611243
+2026-11-24 16:28:41,392 INFO Volume/pose evaluation 13/23 deposition_low_seed202611241
+2026-11-24 16:28:44,940 INFO Volume/pose evaluation 14/23 deposition_low_seed202611242
+2026-11-24 16:28:48,201 INFO Volume/pose evaluation 15/23 deposition_low_seed202611243
+2026-11-24 16:28:51,421 INFO Volume/pose evaluation 16/23 excavation_seed202611241
+2026-11-24 16:28:54,927 INFO Volume/pose evaluation 17/23 excavation_seed202611242
+2026-11-24 16:28:58,232 INFO Volume/pose evaluation 18/23 excavation_seed202611243
+2026-11-24 16:29:01,458 INFO Volume/pose evaluation 19/23 deposition_broad_seed202611241
+2026-11-24 16:29:04,941 INFO Volume/pose evaluation 20/23 deposition_broad_seed202611242
+2026-11-24 16:29:08,271 INFO Volume/pose evaluation 21/23 deposition_broad_seed202611243
+2026-11-24 16:29:11,422 INFO Volume/pose evaluation 22/23 01_rigid_only
+2026-11-24 16:29:14,930 INFO Volume/pose evaluation 23/23 02_local_deposition
+2026-11-24 16:29:19,551 INFO Finished 184 method-case results; validation True
+2026-11-24 16:29:19,552 INFO ordinary: mean translation 6.6283 mm, mean volume abs error 6.5428 m3
+2026-11-24 16:29:19,552 INFO trimmed_90: mean translation 2.3948 mm, mean volume abs error 2.3509 m3
+2026-11-24 16:29:19,552 INFO huber: mean translation 0.7604 mm, mean volume abs error 1.0675 m3
+2026-11-24 16:29:19,552 INFO normal_space: mean translation 10.0622 mm, mean volume abs error 7.1061 m3
+2026-11-24 16:29:19,552 INFO pointwise_gate: mean translation 0.5547 mm, mean volume abs error 0.6862 m3
+2026-11-24 16:29:19,552 INFO patch_no_dilation: mean translation 1.8799 mm, mean volume abs error 1.3736 m3
+2026-11-24 16:29:19,552 INFO patch_candidate: mean translation 1.2467 mm, mean volume abs error 0.8411 m3
+2026-11-24 16:29:19,552 INFO oracle_pose: mean translation 0.0000 mm, mean volume abs error 0.5957 m3

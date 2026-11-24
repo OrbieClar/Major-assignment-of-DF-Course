@@ -1,0 +1,20 @@
+{
+  "case": "01_rigid_only",
+  "method": "patch_no_dilation",
+  "method_label": "区域筛选、不扩张（消融）",
+  "retained_reference_points": 13219,
+  "retained_moving_points": 13155,
+  "icp_iterations": 16,
+  "elapsed_seconds": 0.3188020999987202,
+  "rotation_error_deg": 0.0038662338066778384,
+  "translation_error_mm": 1.455912609571878,
+  "stable_holdout_pose_rmse_mm": 1.7560661537467588,
+  "stable_holdout_noisy_rmse_mm": 8.926108820789622,
+  "all_point_nn_after_rmse_mm": 70.91725481883584,
+  "change_region_pose_height_mae_mm": null,
+  "rejected_change_precision": null,
+  "rejected_change_recall": null,
+  "rejected_unchanged_fraction": 0.0,
+  "retained_change_points": 0,
+  "fallback": false
+}

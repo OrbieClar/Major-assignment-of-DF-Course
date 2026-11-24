@@ -1,0 +1,70 @@
+{
+  "dataset": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\terrain_benchmark_v1",
+  "source_sha256": {
+    "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\terrain_benchmark_v1\\metadata.json": "531cb3b82ab8774ba3b56d610fea6b01cf7d858a591bea276695400b0d748076",
+    "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\scripts\\build_terrain_benchmark.py": "4de99ac5a4b430fd0b0538f97f74b22696226f3268a96554e04b376fe0cac8ba",
+    "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\terrain_benchmark_v1\\01_rigid_only\\inputs.npz": "64e1bba9dd8d808d16a419b24405c0fa51029945d1650cdebfde310b567c01c0",
+    "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\terrain_benchmark_v1\\01_rigid_only\\truth\\ground_truth.npz": "625fa1ce5941b6b874dd3fb533743f7faba082218964a15e048fbad3b3bf9907",
+    "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\terrain_benchmark_v1\\01_rigid_only\\ordinary_icp_transform.csv": "c50fdbc36dfa2805b3d838edb815a70762434a0f18782da173479e0a96537fdd",
+    "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\terrain_benchmark_v1\\02_local_deposition\\inputs.npz": "35dfb87598393d444063bcea9e49bd9fe8c11953f2be5f5833c5940e614f8000",
+    "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\terrain_benchmark_v1\\02_local_deposition\\truth\\ground_truth.npz": "b7148fcb9cd40370ca7b105495ca5725799e9c0b9ad85ffbd4e74d3a7c53a70c",
+    "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\terrain_benchmark_v1\\02_local_deposition\\ordinary_icp_transform.csv": "b35996db50a765f20bcbb19db8def4ed3282ef4beb903a16910e52821f1d8105"
+  },
+  "solver": "build_terrain_benchmark.ordinary_icp: NumPy proper Kabsch + scipy.spatial.cKDTree exact NN",
+  "initial_transform": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "max_iterations": 150,
+  "tolerance_rmse_m": 1e-09,
+  "correspondences": "Unthresholded point-to-point nearest neighbors; no truth correspondences, no weighting",
+  "repeats": 20,
+  "random_seed": 20261124,
+  "random_seed_sequence": "NumPy SeedSequence(seed).spawn(repeats), same selections for both paired cases",
+  "selected_reference_points": 12257,
+  "selected_moving_points": 12182,
+  "oracle_exclusion_center_local_xy_m": [
+    -8.73946982162306,
+    -0.6365958815440536
+  ],
+  "oracle_exclusion_radius_m": 5.25,
+  "oracle_label_access": "Uses true untransformed XY and reference stable mask only to define the ideal control selection",
+  "pure_case_control": "Exclude the same potential-change footprint even though all points are physically unchanged in the rigid-only case",
+  "random_label_access": "Only matched sample counts are inherited from the oracle; indices chosen uniformly, independently for reference/moving",
+  "evaluation_only_truth": "Correct pose, latent IDs, change heights and independent stable check points are never passed to fitting",
+  "coordinate_system": "Same local meter coordinates as terrain_benchmark metadata; plots/PLYs use no offsets or exaggeration",
+  "global_origin": [
+    652921.5374668216,
+    5189156.600508882,
+    2486.004430603096
+  ],
+  "timing": "Fitting only; excludes subset selection, truth evaluation, exports and file I/O",
+  "packages": {
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "python": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\.venv\\Scripts\\python.exe"
+}

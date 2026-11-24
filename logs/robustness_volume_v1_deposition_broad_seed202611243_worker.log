@@ -1,0 +1,7 @@
+ordinary retained 13238 13242 iterations 19
+trimmed_90 retained 13238 13242 iterations 20
+huber retained 13238 13242 iterations 19
+normal_space retained 6000 6000 iterations 20
+pointwise_gate retained 11756 11718 iterations 23
+patch_no_dilation retained 12497 12507 iterations 27
+patch_candidate retained 11888 11901 iterations 26

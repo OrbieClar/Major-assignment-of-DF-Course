@@ -1,0 +1,20 @@
+{
+  "case": "02_local_deposition",
+  "method": "trimmed_90",
+  "method_label": "固定90%截尾 ICP",
+  "retained_reference_points": 13220,
+  "retained_moving_points": 13155,
+  "icp_iterations": 17,
+  "elapsed_seconds": 0.20381910000105563,
+  "rotation_error_deg": 0.008942922725206493,
+  "translation_error_mm": 2.539624941702647,
+  "stable_holdout_pose_rmse_mm": 3.149977679251261,
+  "stable_holdout_noisy_rmse_mm": 9.218827500979593,
+  "all_point_nn_after_rmse_mm": 84.30931427659235,
+  "change_region_pose_height_mae_mm": 3.804853155685959,
+  "rejected_change_precision": null,
+  "rejected_change_recall": null,
+  "rejected_unchanged_fraction": null,
+  "retained_change_points": null,
+  "fallback": false
+}

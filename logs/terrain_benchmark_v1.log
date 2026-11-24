@@ -1,0 +1,4 @@
+2026-11-23 17:18:31,294 INFO Source points 16281; local origin [6.52921537e+05 5.18915660e+06 2.48600443e+03]; bump center XY [-8.73946982 -0.63659588]
+2026-11-23 17:18:32,430 INFO 01_rigid_only: 0 changed points; true volume 0.00000000 m3; rotation error 0.003866 deg; translation error 1.456 mm; stable pose RMSE 1.756 mm
+2026-11-23 17:18:33,099 INFO 02_local_deposition: 740 changed points; true volume 10.60287521 m3; rotation error 0.026320 deg; translation error 7.236 mm; stable pose RMSE 9.070 mm
+2026-11-23 17:18:33,623 INFO Output C:\Users\85887\Desktop\研一\数据分析与特征提取课程\大作业\results\terrain_benchmark_v1; validation True

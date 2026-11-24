@@ -1,0 +1,14 @@
+{
+  "elapsed_seconds": 0.43666499999380903,
+  "fit_iterations": 26,
+  "selection_info": {
+    "mode": "patch_candidate",
+    "fallback": false,
+    "excluded_core_cells": 50,
+    "excluded_cells_after_expansion": 335,
+    "normal_residual_location_m": -0.007869612327349066,
+    "normal_residual_sigma_m": 0.014027102761297906,
+    "normal_residual_threshold_m": 0.04208130828389372,
+    "patch_size_m": 1.2604140421528705
+  }
+}

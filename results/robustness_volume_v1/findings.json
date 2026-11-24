@@ -1,0 +1,15 @@
+{
+  "new_cases": 21,
+  "candidate_volume_MAE_reduction_vs_ordinary_percent": 87.14484904595842,
+  "candidate_volume_MAE_reduction_vs_huber_percent": 21.212746755739097,
+  "candidate_beats_pointwise_ablation_overall": false,
+  "candidate_per_case_volume_wins": {
+    "ordinary": 20,
+    "huber": 15,
+    "pointwise_gate": 7
+  },
+  "true_change_signal_coverage_min": 0.9944874473614974,
+  "true_change_signal_coverage_max": 1.0,
+  "main_limit": "Regional aggregation has no overall advantage over the pointwise ablation in these tests; sparse sampling and interpolation remain important error sources. One terrain only.",
+  "correct_pose_is_not_a_lower_bound": "Correct-pose volume results isolate estimator effects; biased poses can sometimes cancel interpolation/noise bias by chance."
+}

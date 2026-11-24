@@ -1,0 +1,20 @@
+{
+  "case": "01_rigid_only",
+  "method": "ordinary",
+  "method_label": "普通 ICP",
+  "retained_reference_points": 13220,
+  "retained_moving_points": 13155,
+  "icp_iterations": 14,
+  "elapsed_seconds": 0.16492199999993318,
+  "rotation_error_deg": 0.0038662341837525007,
+  "translation_error_mm": 1.4559126095728596,
+  "stable_holdout_pose_rmse_mm": 1.7560661537484785,
+  "stable_holdout_noisy_rmse_mm": 8.926108820790093,
+  "all_point_nn_after_rmse_mm": 70.91725481883577,
+  "change_region_pose_height_mae_mm": null,
+  "rejected_change_precision": null,
+  "rejected_change_recall": null,
+  "rejected_unchanged_fraction": null,
+  "retained_change_points": null,
+  "fallback": false
+}

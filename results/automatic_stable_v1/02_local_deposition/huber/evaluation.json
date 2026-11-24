@@ -1,0 +1,20 @@
+{
+  "case": "02_local_deposition",
+  "method": "huber",
+  "method_label": "Huber 加权 ICP",
+  "retained_reference_points": 13220,
+  "retained_moving_points": 13155,
+  "icp_iterations": 17,
+  "elapsed_seconds": 0.22308540000085486,
+  "rotation_error_deg": 0.0027629619020268325,
+  "translation_error_mm": 0.6507026502093214,
+  "stable_holdout_pose_rmse_mm": 0.8774442958020536,
+  "stable_holdout_noisy_rmse_mm": 8.752825353602192,
+  "all_point_nn_after_rmse_mm": 84.4615030472191,
+  "change_region_pose_height_mae_mm": 1.045946488823847,
+  "rejected_change_precision": null,
+  "rejected_change_recall": null,
+  "rejected_unchanged_fraction": null,
+  "retained_change_points": null,
+  "fallback": false
+}

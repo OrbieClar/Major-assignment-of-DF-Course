@@ -1,0 +1,10 @@
+{
+  "hypothesis": "On this fixed paired dataset, local changed points participating in pose fitting cause bias; excluding the true change footprint can reduce that bias beyond count reduction alone",
+  "supported_on_this_dataset": true,
+  "deposition_oracle_translation_reduction_percent": 82.84422428970183,
+  "oracle_translation_below_random_empirical_p05": true,
+  "random_draws": 20,
+  "limits": "One terrain patch, one prescribed change and one data/noise seed. Random-subset repeats measure sampling variability only; empirical quantiles are not population confidence intervals. Region exclusion also changes geometry distribution; this test does not isolate every spatial/normal effect.",
+  "not_an_automatic_method": "Oracle reads true labels; all methods share ordinary point-to-point ICP. This experiment does not evaluate py4dgeo stable-area ICP, and is not an innovation claim.",
+  "next_step": "Design input-only candidate-stable-region selection and compare with mature trimmed/robust ICP and spatial/normal sampling controls; do not use truth masks or held-out checks in fitting or parameter selection."
+}

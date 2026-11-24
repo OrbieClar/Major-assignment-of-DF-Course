@@ -1,0 +1,4 @@
+﻿method,paired_runs,deposition_minus_rigid_translation_error_mm_mean,deposition_minus_rigid_translation_error_mm_std,deposition_minus_rigid_stable_pose_error_mm_mean
+all_points,1,5.780097009211612,0.0,7.313896558789085
+oracle_stable,1,0.0,0.0,0.0
+random_matched,20,5.793849973698956,0.6430752987830971,7.21030004093833

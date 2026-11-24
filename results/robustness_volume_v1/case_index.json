@@ -1,0 +1,905 @@
+[
+  {
+    "name": "rigid_control_seed202611241",
+    "scenario": "rigid_control",
+    "seed": 202611241,
+    "split": "new_conditions",
+    "data": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\datasets\\rigid_control_seed202611241",
+    "algorithm": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\algorithms\\rigid_control_seed202611241",
+    "truth": {
+      "scenario": {
+        "name": "rigid_control",
+        "noise_sigma_m": 0.005,
+        "reference_keep": 0.9,
+        "moving_keep": 0.9,
+        "radius_m": 4.5,
+        "height_m": 0.0
+      },
+      "seed": 202611241,
+      "global_origin": [
+        652921.5374668216,
+        5189156.600508882,
+        2486.004430603096
+      ],
+      "center_local_xy_m": [
+        -8.73946982162306,
+        -0.6365958815440536
+      ],
+      "analytic_net_volume_m3": 0.0,
+      "changed_moving_points": 0,
+      "reference_points": 13190,
+      "moving_points": 13141,
+      "stable_holdout_points": 1466,
+      "model": "Clean piecewise-linear mother height field plus prescribed compact vertical polynomial bump; independent noisy vertex subsets",
+      "truth_access": "Evaluation only; input-only workers cannot read this folder"
+    },
+    "profile": {
+      "name": "rigid_control",
+      "noise_sigma_m": 0.005,
+      "reference_keep": 0.9,
+      "moving_keep": 0.9,
+      "radius_m": 4.5,
+      "height_m": 0.0
+    }
+  },
+  {
+    "name": "rigid_control_seed202611242",
+    "scenario": "rigid_control",
+    "seed": 202611242,
+    "split": "new_conditions",
+    "data": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\datasets\\rigid_control_seed202611242",
+    "algorithm": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\algorithms\\rigid_control_seed202611242",
+    "truth": {
+      "scenario": {
+        "name": "rigid_control",
+        "noise_sigma_m": 0.005,
+        "reference_keep": 0.9,
+        "moving_keep": 0.9,
+        "radius_m": 4.5,
+        "height_m": 0.0
+      },
+      "seed": 202611242,
+      "global_origin": [
+        652921.5374668216,
+        5189156.600508882,
+        2486.004430603096
+      ],
+      "center_local_xy_m": [
+        -8.73946982162306,
+        -0.6365958815440536
+      ],
+      "analytic_net_volume_m3": 0.0,
+      "changed_moving_points": 0,
+      "reference_points": 13073,
+      "moving_points": 13096,
+      "stable_holdout_points": 1513,
+      "model": "Clean piecewise-linear mother height field plus prescribed compact vertical polynomial bump; independent noisy vertex subsets",
+      "truth_access": "Evaluation only; input-only workers cannot read this folder"
+    },
+    "profile": {
+      "name": "rigid_control",
+      "noise_sigma_m": 0.005,
+      "reference_keep": 0.9,
+      "moving_keep": 0.9,
+      "radius_m": 4.5,
+      "height_m": 0.0
+    }
+  },
+  {
+    "name": "rigid_control_seed202611243",
+    "scenario": "rigid_control",
+    "seed": 202611243,
+    "split": "new_conditions",
+    "data": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\datasets\\rigid_control_seed202611243",
+    "algorithm": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\algorithms\\rigid_control_seed202611243",
+    "truth": {
+      "scenario": {
+        "name": "rigid_control",
+        "noise_sigma_m": 0.005,
+        "reference_keep": 0.9,
+        "moving_keep": 0.9,
+        "radius_m": 4.5,
+        "height_m": 0.0
+      },
+      "seed": 202611243,
+      "global_origin": [
+        652921.5374668216,
+        5189156.600508882,
+        2486.004430603096
+      ],
+      "center_local_xy_m": [
+        -8.73946982162306,
+        -0.6365958815440536
+      ],
+      "analytic_net_volume_m3": 0.0,
+      "changed_moving_points": 0,
+      "reference_points": 13238,
+      "moving_points": 13242,
+      "stable_holdout_points": 1467,
+      "model": "Clean piecewise-linear mother height field plus prescribed compact vertical polynomial bump; independent noisy vertex subsets",
+      "truth_access": "Evaluation only; input-only workers cannot read this folder"
+    },
+    "profile": {
+      "name": "rigid_control",
+      "noise_sigma_m": 0.005,
+      "reference_keep": 0.9,
+      "moving_keep": 0.9,
+      "radius_m": 4.5,
+      "height_m": 0.0
+    }
+  },
+  {
+    "name": "deposition_nominal_seed202611241",
+    "scenario": "deposition_nominal",
+    "seed": 202611241,
+    "split": "new_conditions",
+    "data": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\datasets\\deposition_nominal_seed202611241",
+    "algorithm": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\algorithms\\deposition_nominal_seed202611241",
+    "truth": {
+      "scenario": {
+        "name": "deposition_nominal",
+        "noise_sigma_m": 0.005,
+        "reference_keep": 0.9,
+        "moving_keep": 0.9,
+        "radius_m": 4.5,
+        "height_m": 0.5
+      },
+      "seed": 202611241,
+      "global_origin": [
+        652921.5374668216,
+        5189156.600508882,
+        2486.004430603096
+      ],
+      "center_local_xy_m": [
+        -8.73946982162306,
+        -0.6365958815440536
+      ],
+      "analytic_net_volume_m3": 10.602875205865551,
+      "changed_moving_points": 701,
+      "reference_points": 13190,
+      "moving_points": 13141,
+      "stable_holdout_points": 1466,
+      "model": "Clean piecewise-linear mother height field plus prescribed compact vertical polynomial bump; independent noisy vertex subsets",
+      "truth_access": "Evaluation only; input-only workers cannot read this folder"
+    },
+    "profile": {
+      "name": "deposition_nominal",
+      "noise_sigma_m": 0.005,
+      "reference_keep": 0.9,
+      "moving_keep": 0.9,
+      "radius_m": 4.5,
+      "height_m": 0.5
+    }
+  },
+  {
+    "name": "deposition_nominal_seed202611242",
+    "scenario": "deposition_nominal",
+    "seed": 202611242,
+    "split": "new_conditions",
+    "data": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\datasets\\deposition_nominal_seed202611242",
+    "algorithm": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\algorithms\\deposition_nominal_seed202611242",
+    "truth": {
+      "scenario": {
+        "name": "deposition_nominal",
+        "noise_sigma_m": 0.005,
+        "reference_keep": 0.9,
+        "moving_keep": 0.9,
+        "radius_m": 4.5,
+        "height_m": 0.5
+      },
+      "seed": 202611242,
+      "global_origin": [
+        652921.5374668216,
+        5189156.600508882,
+        2486.004430603096
+      ],
+      "center_local_xy_m": [
+        -8.73946982162306,
+        -0.6365958815440536
+      ],
+      "analytic_net_volume_m3": 10.602875205865551,
+      "changed_moving_points": 699,
+      "reference_points": 13073,
+      "moving_points": 13096,
+      "stable_holdout_points": 1513,
+      "model": "Clean piecewise-linear mother height field plus prescribed compact vertical polynomial bump; independent noisy vertex subsets",
+      "truth_access": "Evaluation only; input-only workers cannot read this folder"
+    },
+    "profile": {
+      "name": "deposition_nominal",
+      "noise_sigma_m": 0.005,
+      "reference_keep": 0.9,
+      "moving_keep": 0.9,
+      "radius_m": 4.5,
+      "height_m": 0.5
+    }
+  },
+  {
+    "name": "deposition_nominal_seed202611243",
+    "scenario": "deposition_nominal",
+    "seed": 202611243,
+    "split": "new_conditions",
+    "data": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\datasets\\deposition_nominal_seed202611243",
+    "algorithm": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\algorithms\\deposition_nominal_seed202611243",
+    "truth": {
+      "scenario": {
+        "name": "deposition_nominal",
+        "noise_sigma_m": 0.005,
+        "reference_keep": 0.9,
+        "moving_keep": 0.9,
+        "radius_m": 4.5,
+        "height_m": 0.5
+      },
+      "seed": 202611243,
+      "global_origin": [
+        652921.5374668216,
+        5189156.600508882,
+        2486.004430603096
+      ],
+      "center_local_xy_m": [
+        -8.73946982162306,
+        -0.6365958815440536
+      ],
+      "analytic_net_volume_m3": 10.602875205865551,
+      "changed_moving_points": 732,
+      "reference_points": 13238,
+      "moving_points": 13242,
+      "stable_holdout_points": 1467,
+      "model": "Clean piecewise-linear mother height field plus prescribed compact vertical polynomial bump; independent noisy vertex subsets",
+      "truth_access": "Evaluation only; input-only workers cannot read this folder"
+    },
+    "profile": {
+      "name": "deposition_nominal",
+      "noise_sigma_m": 0.005,
+      "reference_keep": 0.9,
+      "moving_keep": 0.9,
+      "radius_m": 4.5,
+      "height_m": 0.5
+    }
+  },
+  {
+    "name": "deposition_noise15mm_seed202611241",
+    "scenario": "deposition_noise15mm",
+    "seed": 202611241,
+    "split": "new_conditions",
+    "data": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\datasets\\deposition_noise15mm_seed202611241",
+    "algorithm": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\algorithms\\deposition_noise15mm_seed202611241",
+    "truth": {
+      "scenario": {
+        "name": "deposition_noise15mm",
+        "noise_sigma_m": 0.015,
+        "reference_keep": 0.9,
+        "moving_keep": 0.9,
+        "radius_m": 4.5,
+        "height_m": 0.5
+      },
+      "seed": 202611241,
+      "global_origin": [
+        652921.5374668216,
+        5189156.600508882,
+        2486.004430603096
+      ],
+      "center_local_xy_m": [
+        -8.73946982162306,
+        -0.6365958815440536
+      ],
+      "analytic_net_volume_m3": 10.602875205865551,
+      "changed_moving_points": 701,
+      "reference_points": 13190,
+      "moving_points": 13141,
+      "stable_holdout_points": 1466,
+      "model": "Clean piecewise-linear mother height field plus prescribed compact vertical polynomial bump; independent noisy vertex subsets",
+      "truth_access": "Evaluation only; input-only workers cannot read this folder"
+    },
+    "profile": {
+      "name": "deposition_noise15mm",
+      "noise_sigma_m": 0.015,
+      "reference_keep": 0.9,
+      "moving_keep": 0.9,
+      "radius_m": 4.5,
+      "height_m": 0.5
+    }
+  },
+  {
+    "name": "deposition_noise15mm_seed202611242",
+    "scenario": "deposition_noise15mm",
+    "seed": 202611242,
+    "split": "new_conditions",
+    "data": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\datasets\\deposition_noise15mm_seed202611242",
+    "algorithm": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\algorithms\\deposition_noise15mm_seed202611242",
+    "truth": {
+      "scenario": {
+        "name": "deposition_noise15mm",
+        "noise_sigma_m": 0.015,
+        "reference_keep": 0.9,
+        "moving_keep": 0.9,
+        "radius_m": 4.5,
+        "height_m": 0.5
+      },
+      "seed": 202611242,
+      "global_origin": [
+        652921.5374668216,
+        5189156.600508882,
+        2486.004430603096
+      ],
+      "center_local_xy_m": [
+        -8.73946982162306,
+        -0.6365958815440536
+      ],
+      "analytic_net_volume_m3": 10.602875205865551,
+      "changed_moving_points": 699,
+      "reference_points": 13073,
+      "moving_points": 13096,
+      "stable_holdout_points": 1513,
+      "model": "Clean piecewise-linear mother height field plus prescribed compact vertical polynomial bump; independent noisy vertex subsets",
+      "truth_access": "Evaluation only; input-only workers cannot read this folder"
+    },
+    "profile": {
+      "name": "deposition_noise15mm",
+      "noise_sigma_m": 0.015,
+      "reference_keep": 0.9,
+      "moving_keep": 0.9,
+      "radius_m": 4.5,
+      "height_m": 0.5
+    }
+  },
+  {
+    "name": "deposition_noise15mm_seed202611243",
+    "scenario": "deposition_noise15mm",
+    "seed": 202611243,
+    "split": "new_conditions",
+    "data": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\datasets\\deposition_noise15mm_seed202611243",
+    "algorithm": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\algorithms\\deposition_noise15mm_seed202611243",
+    "truth": {
+      "scenario": {
+        "name": "deposition_noise15mm",
+        "noise_sigma_m": 0.015,
+        "reference_keep": 0.9,
+        "moving_keep": 0.9,
+        "radius_m": 4.5,
+        "height_m": 0.5
+      },
+      "seed": 202611243,
+      "global_origin": [
+        652921.5374668216,
+        5189156.600508882,
+        2486.004430603096
+      ],
+      "center_local_xy_m": [
+        -8.73946982162306,
+        -0.6365958815440536
+      ],
+      "analytic_net_volume_m3": 10.602875205865551,
+      "changed_moving_points": 732,
+      "reference_points": 13238,
+      "moving_points": 13242,
+      "stable_holdout_points": 1467,
+      "model": "Clean piecewise-linear mother height field plus prescribed compact vertical polynomial bump; independent noisy vertex subsets",
+      "truth_access": "Evaluation only; input-only workers cannot read this folder"
+    },
+    "profile": {
+      "name": "deposition_noise15mm",
+      "noise_sigma_m": 0.015,
+      "reference_keep": 0.9,
+      "moving_keep": 0.9,
+      "radius_m": 4.5,
+      "height_m": 0.5
+    }
+  },
+  {
+    "name": "deposition_sparse_seed202611241",
+    "scenario": "deposition_sparse",
+    "seed": 202611241,
+    "split": "new_conditions",
+    "data": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\datasets\\deposition_sparse_seed202611241",
+    "algorithm": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\algorithms\\deposition_sparse_seed202611241",
+    "truth": {
+      "scenario": {
+        "name": "deposition_sparse",
+        "noise_sigma_m": 0.005,
+        "reference_keep": 0.9,
+        "moving_keep": 0.5,
+        "radius_m": 4.5,
+        "height_m": 0.5
+      },
+      "seed": 202611241,
+      "global_origin": [
+        652921.5374668216,
+        5189156.600508882,
+        2486.004430603096
+      ],
+      "center_local_xy_m": [
+        -8.73946982162306,
+        -0.6365958815440536
+      ],
+      "analytic_net_volume_m3": 10.602875205865551,
+      "changed_moving_points": 392,
+      "reference_points": 13190,
+      "moving_points": 7350,
+      "stable_holdout_points": 1466,
+      "model": "Clean piecewise-linear mother height field plus prescribed compact vertical polynomial bump; independent noisy vertex subsets",
+      "truth_access": "Evaluation only; input-only workers cannot read this folder"
+    },
+    "profile": {
+      "name": "deposition_sparse",
+      "noise_sigma_m": 0.005,
+      "reference_keep": 0.9,
+      "moving_keep": 0.5,
+      "radius_m": 4.5,
+      "height_m": 0.5
+    }
+  },
+  {
+    "name": "deposition_sparse_seed202611242",
+    "scenario": "deposition_sparse",
+    "seed": 202611242,
+    "split": "new_conditions",
+    "data": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\datasets\\deposition_sparse_seed202611242",
+    "algorithm": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\algorithms\\deposition_sparse_seed202611242",
+    "truth": {
+      "scenario": {
+        "name": "deposition_sparse",
+        "noise_sigma_m": 0.005,
+        "reference_keep": 0.9,
+        "moving_keep": 0.5,
+        "radius_m": 4.5,
+        "height_m": 0.5
+      },
+      "seed": 202611242,
+      "global_origin": [
+        652921.5374668216,
+        5189156.600508882,
+        2486.004430603096
+      ],
+      "center_local_xy_m": [
+        -8.73946982162306,
+        -0.6365958815440536
+      ],
+      "analytic_net_volume_m3": 10.602875205865551,
+      "changed_moving_points": 376,
+      "reference_points": 13073,
+      "moving_points": 7262,
+      "stable_holdout_points": 1513,
+      "model": "Clean piecewise-linear mother height field plus prescribed compact vertical polynomial bump; independent noisy vertex subsets",
+      "truth_access": "Evaluation only; input-only workers cannot read this folder"
+    },
+    "profile": {
+      "name": "deposition_sparse",
+      "noise_sigma_m": 0.005,
+      "reference_keep": 0.9,
+      "moving_keep": 0.5,
+      "radius_m": 4.5,
+      "height_m": 0.5
+    }
+  },
+  {
+    "name": "deposition_sparse_seed202611243",
+    "scenario": "deposition_sparse",
+    "seed": 202611243,
+    "split": "new_conditions",
+    "data": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\datasets\\deposition_sparse_seed202611243",
+    "algorithm": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\algorithms\\deposition_sparse_seed202611243",
+    "truth": {
+      "scenario": {
+        "name": "deposition_sparse",
+        "noise_sigma_m": 0.005,
+        "reference_keep": 0.9,
+        "moving_keep": 0.5,
+        "radius_m": 4.5,
+        "height_m": 0.5
+      },
+      "seed": 202611243,
+      "global_origin": [
+        652921.5374668216,
+        5189156.600508882,
+        2486.004430603096
+      ],
+      "center_local_xy_m": [
+        -8.73946982162306,
+        -0.6365958815440536
+      ],
+      "analytic_net_volume_m3": 10.602875205865551,
+      "changed_moving_points": 404,
+      "reference_points": 13238,
+      "moving_points": 7408,
+      "stable_holdout_points": 1467,
+      "model": "Clean piecewise-linear mother height field plus prescribed compact vertical polynomial bump; independent noisy vertex subsets",
+      "truth_access": "Evaluation only; input-only workers cannot read this folder"
+    },
+    "profile": {
+      "name": "deposition_sparse",
+      "noise_sigma_m": 0.005,
+      "reference_keep": 0.9,
+      "moving_keep": 0.5,
+      "radius_m": 4.5,
+      "height_m": 0.5
+    }
+  },
+  {
+    "name": "deposition_low_seed202611241",
+    "scenario": "deposition_low",
+    "seed": 202611241,
+    "split": "new_conditions",
+    "data": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\datasets\\deposition_low_seed202611241",
+    "algorithm": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\algorithms\\deposition_low_seed202611241",
+    "truth": {
+      "scenario": {
+        "name": "deposition_low",
+        "noise_sigma_m": 0.005,
+        "reference_keep": 0.9,
+        "moving_keep": 0.9,
+        "radius_m": 4.5,
+        "height_m": 0.2
+      },
+      "seed": 202611241,
+      "global_origin": [
+        652921.5374668216,
+        5189156.600508882,
+        2486.004430603096
+      ],
+      "center_local_xy_m": [
+        -8.73946982162306,
+        -0.6365958815440536
+      ],
+      "analytic_net_volume_m3": 4.241150082346221,
+      "changed_moving_points": 701,
+      "reference_points": 13190,
+      "moving_points": 13141,
+      "stable_holdout_points": 1466,
+      "model": "Clean piecewise-linear mother height field plus prescribed compact vertical polynomial bump; independent noisy vertex subsets",
+      "truth_access": "Evaluation only; input-only workers cannot read this folder"
+    },
+    "profile": {
+      "name": "deposition_low",
+      "noise_sigma_m": 0.005,
+      "reference_keep": 0.9,
+      "moving_keep": 0.9,
+      "radius_m": 4.5,
+      "height_m": 0.2
+    }
+  },
+  {
+    "name": "deposition_low_seed202611242",
+    "scenario": "deposition_low",
+    "seed": 202611242,
+    "split": "new_conditions",
+    "data": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\datasets\\deposition_low_seed202611242",
+    "algorithm": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\algorithms\\deposition_low_seed202611242",
+    "truth": {
+      "scenario": {
+        "name": "deposition_low",
+        "noise_sigma_m": 0.005,
+        "reference_keep": 0.9,
+        "moving_keep": 0.9,
+        "radius_m": 4.5,
+        "height_m": 0.2
+      },
+      "seed": 202611242,
+      "global_origin": [
+        652921.5374668216,
+        5189156.600508882,
+        2486.004430603096
+      ],
+      "center_local_xy_m": [
+        -8.73946982162306,
+        -0.6365958815440536
+      ],
+      "analytic_net_volume_m3": 4.241150082346221,
+      "changed_moving_points": 699,
+      "reference_points": 13073,
+      "moving_points": 13096,
+      "stable_holdout_points": 1513,
+      "model": "Clean piecewise-linear mother height field plus prescribed compact vertical polynomial bump; independent noisy vertex subsets",
+      "truth_access": "Evaluation only; input-only workers cannot read this folder"
+    },
+    "profile": {
+      "name": "deposition_low",
+      "noise_sigma_m": 0.005,
+      "reference_keep": 0.9,
+      "moving_keep": 0.9,
+      "radius_m": 4.5,
+      "height_m": 0.2
+    }
+  },
+  {
+    "name": "deposition_low_seed202611243",
+    "scenario": "deposition_low",
+    "seed": 202611243,
+    "split": "new_conditions",
+    "data": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\datasets\\deposition_low_seed202611243",
+    "algorithm": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\algorithms\\deposition_low_seed202611243",
+    "truth": {
+      "scenario": {
+        "name": "deposition_low",
+        "noise_sigma_m": 0.005,
+        "reference_keep": 0.9,
+        "moving_keep": 0.9,
+        "radius_m": 4.5,
+        "height_m": 0.2
+      },
+      "seed": 202611243,
+      "global_origin": [
+        652921.5374668216,
+        5189156.600508882,
+        2486.004430603096
+      ],
+      "center_local_xy_m": [
+        -8.73946982162306,
+        -0.6365958815440536
+      ],
+      "analytic_net_volume_m3": 4.241150082346221,
+      "changed_moving_points": 732,
+      "reference_points": 13238,
+      "moving_points": 13242,
+      "stable_holdout_points": 1467,
+      "model": "Clean piecewise-linear mother height field plus prescribed compact vertical polynomial bump; independent noisy vertex subsets",
+      "truth_access": "Evaluation only; input-only workers cannot read this folder"
+    },
+    "profile": {
+      "name": "deposition_low",
+      "noise_sigma_m": 0.005,
+      "reference_keep": 0.9,
+      "moving_keep": 0.9,
+      "radius_m": 4.5,
+      "height_m": 0.2
+    }
+  },
+  {
+    "name": "excavation_seed202611241",
+    "scenario": "excavation",
+    "seed": 202611241,
+    "split": "new_conditions",
+    "data": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\datasets\\excavation_seed202611241",
+    "algorithm": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\algorithms\\excavation_seed202611241",
+    "truth": {
+      "scenario": {
+        "name": "excavation",
+        "noise_sigma_m": 0.005,
+        "reference_keep": 0.9,
+        "moving_keep": 0.9,
+        "radius_m": 4.5,
+        "height_m": -0.5
+      },
+      "seed": 202611241,
+      "global_origin": [
+        652921.5374668216,
+        5189156.600508882,
+        2486.004430603096
+      ],
+      "center_local_xy_m": [
+        -8.73946982162306,
+        -0.6365958815440536
+      ],
+      "analytic_net_volume_m3": -10.602875205865551,
+      "changed_moving_points": 701,
+      "reference_points": 13190,
+      "moving_points": 13141,
+      "stable_holdout_points": 1466,
+      "model": "Clean piecewise-linear mother height field plus prescribed compact vertical polynomial bump; independent noisy vertex subsets",
+      "truth_access": "Evaluation only; input-only workers cannot read this folder"
+    },
+    "profile": {
+      "name": "excavation",
+      "noise_sigma_m": 0.005,
+      "reference_keep": 0.9,
+      "moving_keep": 0.9,
+      "radius_m": 4.5,
+      "height_m": -0.5
+    }
+  },
+  {
+    "name": "excavation_seed202611242",
+    "scenario": "excavation",
+    "seed": 202611242,
+    "split": "new_conditions",
+    "data": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\datasets\\excavation_seed202611242",
+    "algorithm": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\algorithms\\excavation_seed202611242",
+    "truth": {
+      "scenario": {
+        "name": "excavation",
+        "noise_sigma_m": 0.005,
+        "reference_keep": 0.9,
+        "moving_keep": 0.9,
+        "radius_m": 4.5,
+        "height_m": -0.5
+      },
+      "seed": 202611242,
+      "global_origin": [
+        652921.5374668216,
+        5189156.600508882,
+        2486.004430603096
+      ],
+      "center_local_xy_m": [
+        -8.73946982162306,
+        -0.6365958815440536
+      ],
+      "analytic_net_volume_m3": -10.602875205865551,
+      "changed_moving_points": 699,
+      "reference_points": 13073,
+      "moving_points": 13096,
+      "stable_holdout_points": 1513,
+      "model": "Clean piecewise-linear mother height field plus prescribed compact vertical polynomial bump; independent noisy vertex subsets",
+      "truth_access": "Evaluation only; input-only workers cannot read this folder"
+    },
+    "profile": {
+      "name": "excavation",
+      "noise_sigma_m": 0.005,
+      "reference_keep": 0.9,
+      "moving_keep": 0.9,
+      "radius_m": 4.5,
+      "height_m": -0.5
+    }
+  },
+  {
+    "name": "excavation_seed202611243",
+    "scenario": "excavation",
+    "seed": 202611243,
+    "split": "new_conditions",
+    "data": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\datasets\\excavation_seed202611243",
+    "algorithm": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\algorithms\\excavation_seed202611243",
+    "truth": {
+      "scenario": {
+        "name": "excavation",
+        "noise_sigma_m": 0.005,
+        "reference_keep": 0.9,
+        "moving_keep": 0.9,
+        "radius_m": 4.5,
+        "height_m": -0.5
+      },
+      "seed": 202611243,
+      "global_origin": [
+        652921.5374668216,
+        5189156.600508882,
+        2486.004430603096
+      ],
+      "center_local_xy_m": [
+        -8.73946982162306,
+        -0.6365958815440536
+      ],
+      "analytic_net_volume_m3": -10.602875205865551,
+      "changed_moving_points": 732,
+      "reference_points": 13238,
+      "moving_points": 13242,
+      "stable_holdout_points": 1467,
+      "model": "Clean piecewise-linear mother height field plus prescribed compact vertical polynomial bump; independent noisy vertex subsets",
+      "truth_access": "Evaluation only; input-only workers cannot read this folder"
+    },
+    "profile": {
+      "name": "excavation",
+      "noise_sigma_m": 0.005,
+      "reference_keep": 0.9,
+      "moving_keep": 0.9,
+      "radius_m": 4.5,
+      "height_m": -0.5
+    }
+  },
+  {
+    "name": "deposition_broad_seed202611241",
+    "scenario": "deposition_broad",
+    "seed": 202611241,
+    "split": "new_conditions",
+    "data": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\datasets\\deposition_broad_seed202611241",
+    "algorithm": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\algorithms\\deposition_broad_seed202611241",
+    "truth": {
+      "scenario": {
+        "name": "deposition_broad",
+        "noise_sigma_m": 0.005,
+        "reference_keep": 0.9,
+        "moving_keep": 0.9,
+        "radius_m": 6.0,
+        "height_m": 0.5
+      },
+      "seed": 202611241,
+      "global_origin": [
+        652921.5374668216,
+        5189156.600508882,
+        2486.004430603096
+      ],
+      "center_local_xy_m": [
+        -8.73946982162306,
+        -0.6365958815440536
+      ],
+      "analytic_net_volume_m3": 18.84955592153876,
+      "changed_moving_points": 1173,
+      "reference_points": 13190,
+      "moving_points": 13141,
+      "stable_holdout_points": 1466,
+      "model": "Clean piecewise-linear mother height field plus prescribed compact vertical polynomial bump; independent noisy vertex subsets",
+      "truth_access": "Evaluation only; input-only workers cannot read this folder"
+    },
+    "profile": {
+      "name": "deposition_broad",
+      "noise_sigma_m": 0.005,
+      "reference_keep": 0.9,
+      "moving_keep": 0.9,
+      "radius_m": 6.0,
+      "height_m": 0.5
+    }
+  },
+  {
+    "name": "deposition_broad_seed202611242",
+    "scenario": "deposition_broad",
+    "seed": 202611242,
+    "split": "new_conditions",
+    "data": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\datasets\\deposition_broad_seed202611242",
+    "algorithm": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\algorithms\\deposition_broad_seed202611242",
+    "truth": {
+      "scenario": {
+        "name": "deposition_broad",
+        "noise_sigma_m": 0.005,
+        "reference_keep": 0.9,
+        "moving_keep": 0.9,
+        "radius_m": 6.0,
+        "height_m": 0.5
+      },
+      "seed": 202611242,
+      "global_origin": [
+        652921.5374668216,
+        5189156.600508882,
+        2486.004430603096
+      ],
+      "center_local_xy_m": [
+        -8.73946982162306,
+        -0.6365958815440536
+      ],
+      "analytic_net_volume_m3": 18.84955592153876,
+      "changed_moving_points": 1174,
+      "reference_points": 13073,
+      "moving_points": 13096,
+      "stable_holdout_points": 1513,
+      "model": "Clean piecewise-linear mother height field plus prescribed compact vertical polynomial bump; independent noisy vertex subsets",
+      "truth_access": "Evaluation only; input-only workers cannot read this folder"
+    },
+    "profile": {
+      "name": "deposition_broad",
+      "noise_sigma_m": 0.005,
+      "reference_keep": 0.9,
+      "moving_keep": 0.9,
+      "radius_m": 6.0,
+      "height_m": 0.5
+    }
+  },
+  {
+    "name": "deposition_broad_seed202611243",
+    "scenario": "deposition_broad",
+    "seed": 202611243,
+    "split": "new_conditions",
+    "data": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\datasets\\deposition_broad_seed202611243",
+    "algorithm": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\robustness_volume_v1\\algorithms\\deposition_broad_seed202611243",
+    "truth": {
+      "scenario": {
+        "name": "deposition_broad",
+        "noise_sigma_m": 0.005,
+        "reference_keep": 0.9,
+        "moving_keep": 0.9,
+        "radius_m": 6.0,
+        "height_m": 0.5
+      },
+      "seed": 202611243,
+      "global_origin": [
+        652921.5374668216,
+        5189156.600508882,
+        2486.004430603096
+      ],
+      "center_local_xy_m": [
+        -8.73946982162306,
+        -0.6365958815440536
+      ],
+      "analytic_net_volume_m3": 18.84955592153876,
+      "changed_moving_points": 1223,
+      "reference_points": 13238,
+      "moving_points": 13242,
+      "stable_holdout_points": 1467,
+      "model": "Clean piecewise-linear mother height field plus prescribed compact vertical polynomial bump; independent noisy vertex subsets",
+      "truth_access": "Evaluation only; input-only workers cannot read this folder"
+    },
+    "profile": {
+      "name": "deposition_broad",
+      "noise_sigma_m": 0.005,
+      "reference_keep": 0.9,
+      "moving_keep": 0.9,
+      "radius_m": 6.0,
+      "height_m": 0.5
+    }
+  }
+]

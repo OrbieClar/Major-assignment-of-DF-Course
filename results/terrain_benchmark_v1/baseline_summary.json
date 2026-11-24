@@ -1,0 +1,36 @@
+[
+  {
+    "case": "01_rigid_only",
+    "method": "ordinary_point_to_point_icp_numpy_kabsch_scipy_exact_kdtree",
+    "reference_points": 13220,
+    "moving_points": 13155,
+    "iterations": 14,
+    "rotation_error_deg": 0.003866236069125262,
+    "translation_error_mm": 1.4559126095697805,
+    "stable_holdout_pose_rmse_mm": 1.7560661537265811,
+    "stable_holdout_noisy_rmse_mm": 8.926108820784869,
+    "all_point_nn_before_rmse_mm": 261.0288389275763,
+    "all_point_nn_after_rmse_mm": 70.91725481883574,
+    "true_volume_m3": 0.0,
+    "changed_point_count": 0,
+    "elapsed_seconds": 0.18105269997613505,
+    "change_region_pose_height_mae_mm": null
+  },
+  {
+    "case": "02_local_deposition",
+    "method": "ordinary_point_to_point_icp_numpy_kabsch_scipy_exact_kdtree",
+    "reference_points": 13220,
+    "moving_points": 13155,
+    "iterations": 17,
+    "rotation_error_deg": 0.02632041507669589,
+    "translation_error_mm": 7.2360096187813925,
+    "stable_holdout_pose_rmse_mm": 9.069962712515666,
+    "stable_holdout_noisy_rmse_mm": 12.473330634605853,
+    "all_point_nn_before_rmse_mm": 264.0215039945121,
+    "all_point_nn_after_rmse_mm": 84.14094205678197,
+    "true_volume_m3": 10.602875205865551,
+    "changed_point_count": 740,
+    "elapsed_seconds": 0.1981726000085473,
+    "change_region_pose_height_mae_mm": 10.730857629481685
+  }
+]

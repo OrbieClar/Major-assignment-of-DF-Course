@@ -1,0 +1,15 @@
+{
+  "case": "02_local_deposition",
+  "method": "oracle_stable",
+  "repeat_index": -1,
+  "fit_reference_points": 12257,
+  "fit_moving_points": 12182,
+  "iterations": 15,
+  "rotation_error_deg": 0.004037697141834502,
+  "translation_error_mm": 1.2413935805737375,
+  "stable_holdout_pose_rmse_mm": 1.6245653158923195,
+  "stable_holdout_noisy_rmse_mm": 8.906435842433043,
+  "all_point_nn_after_rmse_mm": 84.55266922893658,
+  "change_region_pose_height_mae_mm": 0.25005658206323783,
+  "fit_elapsed_seconds": 0.15779699999984587
+}

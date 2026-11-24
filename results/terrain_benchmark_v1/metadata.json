@@ -1,0 +1,149 @@
+{
+  "source": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\ahk2017_spatial_020m.ply",
+  "source_sha256": "8d0726094ab4ab4b9aab19c0669f71fccba0c472cf9426966cd3f1b423f60685",
+  "master_points": 16281,
+  "source_properties": [
+    "x",
+    "y",
+    "z",
+    "nx",
+    "ny",
+    "nz",
+    "scalar_Intensity",
+    "scalar_Return_Number",
+    "scalar_Number_Of_Returns",
+    "scalar_Point_Source_ID",
+    "scalar_Coord._Z"
+  ],
+  "source_interpretation": "Use exported coordinates as the mother geometry; no assumption they are an unchanged subset of the original LAZ",
+  "coordinate_unit": "m; inherited from AHK metric coordinates",
+  "global_origin": [
+    652921.5374668216,
+    5189156.600508882,
+    2486.004430603096
+  ],
+  "local_coordinate_formula": "local = exported_source_xyz - global_origin; source_xyz = local + global_origin",
+  "original_crs": "Not encoded in the source PLY; no new CRS is assigned",
+  "seed": 20261123,
+  "sampling": "10% master vertices withheld; reference and moving independently retain 90% of remaining vertices; shuffled point order",
+  "noise_sigma_per_axis_m": 0.005,
+  "noise_location": "Independent isotropic XYZ Gaussian noise in terrain frame before known rigid transform",
+  "reference_points": 13220,
+  "moving_points": 13155,
+  "stable_holdout_points": 1517,
+  "holdout_boundary_buffer_m": 0.75,
+  "shared_source_vertices_in_inputs": 11860,
+  "forward_euler_xyz_degrees": [
+    0.4,
+    -0.3,
+    1.0
+  ],
+  "forward_translation_local_m": [
+    0.3,
+    -0.2,
+    0.15
+  ],
+  "forward_transform_local": [
+    [
+      0.9998339894915752,
+      -0.01748852919357297,
+      -0.005113198999291051,
+      0.3
+    ],
+    [
+      0.017452167204014265,
+      0.9998226916246027,
+      -0.007071574960210274,
+      -0.2
+    ],
+    [
+      0.00523596383141958,
+      0.00698116460057274,
+      0.99996192328687,
+      0.15
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "registration_truth_local": [
+    [
+      0.9998339894915752,
+      0.01745216720401426,
+      0.00523596383141958,
+      -0.2972451579813826
+    ],
+    [
+      -0.017488529193572973,
+      0.9998226916246026,
+      0.006981164600572738,
+      0.20416392239290648
+    ],
+    [
+      -0.0051131989992910494,
+      -0.007071574960210273,
+      0.9999619232868697,
+      -0.1498746437852852
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "registration_truth_global": [
+    [
+      0.9998339894915752,
+      0.01745216720401426,
+      0.00523596383141958,
+      -90466.95067794027
+    ],
+    [
+      -0.017488529193572973,
+      0.9998226916246026,
+      0.006981164600572738,
+      12321.56725341361
+    ],
+    [
+      -0.0051131989992910494,
+      -0.007071574960210273,
+      0.9999619232868697,
+      40033.97241699316
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "transformation_convention": "column-vector homogeneous; row arrays use xyz @ R.T + t",
+  "bump": {
+    "center_local_xy_m": [
+      -8.73946982162306,
+      -0.6365958815440536
+    ],
+    "center_source_xy_m": [
+      652912.7979969999,
+      5189155.963913
+    ],
+    "radius_m": 4.5,
+    "peak_height_m": 0.5,
+    "formula": "delta_z = h * max(1 - ((x-cx)^2+(y-cy)^2)/r^2, 0)^2",
+    "volume_formula": "V = pi * r^2 * h / 3",
+    "convex_hull_clearance_m": 10.577651307461654,
+    "maximum_probe_distance_to_master_xy_m": 0.6465631855088553
+  },
+  "surface_model": "Piecewise-linear Delaunay interpolation of master XY/Z over its convex hull; synthetic geometry, not an assertion of measured mass change",
+  "dropped_source_attributes": "Original normals, intensity and high-level scan fields are not transferred to synthetic inputs; recompute normals if needed",
+  "packages": {
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "python": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\.venv\\Scripts\\python.exe"
+}

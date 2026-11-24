@@ -1,0 +1,20 @@
+{
+  "case": "02_local_deposition",
+  "method": "patch_candidate",
+  "method_label": "区域一致性筛选候选方法",
+  "retained_reference_points": 12329,
+  "retained_moving_points": 12256,
+  "icp_iterations": 23,
+  "elapsed_seconds": 0.40832960000079765,
+  "rotation_error_deg": 0.00411172459748909,
+  "translation_error_mm": 1.4150370913218466,
+  "stable_holdout_pose_rmse_mm": 1.7755304397259226,
+  "stable_holdout_noisy_rmse_mm": 8.930779207364596,
+  "all_point_nn_after_rmse_mm": 84.54937390287363,
+  "change_region_pose_height_mae_mm": 0.15606762446019884,
+  "rejected_change_precision": 0.8153503893214683,
+  "rejected_change_recall": 0.9905405405405405,
+  "rejected_unchanged_fraction": 0.013370922271445831,
+  "retained_change_points": 7,
+  "fallback": false
+}

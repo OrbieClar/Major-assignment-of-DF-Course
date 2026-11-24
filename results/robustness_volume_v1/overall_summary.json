@@ -1,0 +1,66 @@
+[
+  {
+    "method": "ordinary",
+    "cases": 21,
+    "mean_translation_error_mm": 6.628256957884481,
+    "mean_stable_pose_rmse_mm": 7.894732938197625,
+    "mean_net_volume_absolute_error_m3": 6.542766540983805,
+    "median_net_volume_absolute_error_m3": 6.933150452241737
+  },
+  {
+    "method": "trimmed_90",
+    "cases": 21,
+    "mean_translation_error_mm": 2.3948292513309775,
+    "mean_stable_pose_rmse_mm": 2.790484047806248,
+    "mean_net_volume_absolute_error_m3": 2.3508896395330927,
+    "median_net_volume_absolute_error_m3": 2.4233144593717544
+  },
+  {
+    "method": "huber",
+    "cases": 21,
+    "mean_translation_error_mm": 0.7603803851025914,
+    "mean_stable_pose_rmse_mm": 0.918665545295319,
+    "mean_net_volume_absolute_error_m3": 1.0675362838280682,
+    "median_net_volume_absolute_error_m3": 0.9372789128225474
+  },
+  {
+    "method": "normal_space",
+    "cases": 21,
+    "mean_translation_error_mm": 10.062154568729293,
+    "mean_stable_pose_rmse_mm": 13.697897220531562,
+    "mean_net_volume_absolute_error_m3": 7.106107156170145,
+    "median_net_volume_absolute_error_m3": 5.19944982530558
+  },
+  {
+    "method": "pointwise_gate",
+    "cases": 21,
+    "mean_translation_error_mm": 0.5546796591355596,
+    "mean_stable_pose_rmse_mm": 0.9273402010865811,
+    "mean_net_volume_absolute_error_m3": 0.686161680401278,
+    "median_net_volume_absolute_error_m3": 0.3987070197813587
+  },
+  {
+    "method": "patch_no_dilation",
+    "cases": 21,
+    "mean_translation_error_mm": 1.8799143813116896,
+    "mean_stable_pose_rmse_mm": 2.389187788082598,
+    "mean_net_volume_absolute_error_m3": 1.373604303594608,
+    "median_net_volume_absolute_error_m3": 1.0669931894968698
+  },
+  {
+    "method": "patch_candidate",
+    "cases": 21,
+    "mean_translation_error_mm": 1.2466745796128946,
+    "mean_stable_pose_rmse_mm": 1.5562368117273178,
+    "mean_net_volume_absolute_error_m3": 0.8410825154139919,
+    "median_net_volume_absolute_error_m3": 0.44487653693150975
+  },
+  {
+    "method": "oracle_pose",
+    "cases": 21,
+    "mean_translation_error_mm": 0.0,
+    "mean_stable_pose_rmse_mm": 2.6166663941889224e-12,
+    "mean_net_volume_absolute_error_m3": 0.5957444243524137,
+    "median_net_volume_absolute_error_m3": 0.38843482277318664
+  }
+]

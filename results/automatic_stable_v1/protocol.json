@@ -1,0 +1,27 @@
+{
+  "dataset": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\terrain_benchmark_v1",
+  "frozen_config_sha256": "cc5831236a103d7491a26751136cb6ae322334120393580049db21f23f4a9509",
+  "input_hashes": {
+    "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\terrain_benchmark_v1\\01_rigid_only\\inputs.npz": "64e1bba9dd8d808d16a419b24405c0fa51029945d1650cdebfde310b567c01c0",
+    "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\results\\terrain_benchmark_v1\\02_local_deposition\\inputs.npz": "35dfb87598393d444063bcea9e49bd9fe8c11953f2be5f5833c5940e614f8000"
+  },
+  "code_hashes": {
+    "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\scripts\\run_automatic_stable_experiment.py": "2f2569174c4b4cb8664d2833d6e994417d317bc9a84b6d82dd194dd284704229",
+    "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\scripts\\automatic_stable_icp.py": "b514feaee10bf2be73b08526cbcaff185498e9d5d7191f403acc6b6b9b0076da"
+  },
+  "truth_read_order": "Both input-only worker processes must finish before evaluation opens any truth files",
+  "development_status": "Single existing paired terrain dataset used for development/evaluation; not a held-out dataset benchmark",
+  "solver": "Exact KDTree + proper weighted Kabsch, all methods initialized at identity",
+  "fairness": "150 ICP update cap; candidate/ablations allocate at most 50 coarse + 100 refine. Feature time is charged to each relevant method. Sampling/weights/objectives differ as specified.",
+  "parameter_choice": "Common constants fixed before this run; thresholds adapt only to observed spacing/residuals. No known change center, radius, mask, height, transformation or generation noise is passed to workers.",
+  "python": "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\.venv\\Scripts\\python.exe",
+  "methods": [
+    "ordinary",
+    "trimmed_90",
+    "huber",
+    "normal_space",
+    "pointwise_gate",
+    "patch_no_dilation",
+    "patch_candidate"
+  ]
+}

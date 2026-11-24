@@ -1,0 +1,22 @@
+{
+  "version": "robustness_volume_v1",
+  "source": "ahk2017_spatial_020m.ply",
+  "algorithm_config": "configs/automatic_stable_v1.json",
+  "seeds": [202611241, 202611242, 202611243],
+  "grid_step_m": 0.25,
+  "reference_extent_margin_m": 0.75,
+  "maximum_xy_support_distance_m": 0.75,
+  "maximum_triangle_edge_m": 2.0,
+  "forward_angles_xyz_deg": [0.4, -0.3, 1.0],
+  "forward_translation_m": [0.3, -0.2, 0.15],
+  "holdout_fraction": 0.1,
+  "scenarios": [
+    {"name": "rigid_control", "noise_sigma_m": 0.005, "reference_keep": 0.9, "moving_keep": 0.9, "radius_m": 4.5, "height_m": 0.0},
+    {"name": "deposition_nominal", "noise_sigma_m": 0.005, "reference_keep": 0.9, "moving_keep": 0.9, "radius_m": 4.5, "height_m": 0.5},
+    {"name": "deposition_noise15mm", "noise_sigma_m": 0.015, "reference_keep": 0.9, "moving_keep": 0.9, "radius_m": 4.5, "height_m": 0.5},
+    {"name": "deposition_sparse", "noise_sigma_m": 0.005, "reference_keep": 0.9, "moving_keep": 0.5, "radius_m": 4.5, "height_m": 0.5},
+    {"name": "deposition_low", "noise_sigma_m": 0.005, "reference_keep": 0.9, "moving_keep": 0.9, "radius_m": 4.5, "height_m": 0.2},
+    {"name": "excavation", "noise_sigma_m": 0.005, "reference_keep": 0.9, "moving_keep": 0.9, "radius_m": 4.5, "height_m": -0.5},
+    {"name": "deposition_broad", "noise_sigma_m": 0.005, "reference_keep": 0.9, "moving_keep": 0.9, "radius_m": 6.0, "height_m": 0.5}
+  ]
+}

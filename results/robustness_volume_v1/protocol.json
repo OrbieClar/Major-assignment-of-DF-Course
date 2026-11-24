@@ -1,0 +1,37 @@
+{
+  "study": "Frozen algorithm, one terrain, seven profiles and three new paired sampling/noise seeds",
+  "locks": {
+    "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\configs\\automatic_stable_v1.json": "cc5831236a103d7491a26751136cb6ae322334120393580049db21f23f4a9509",
+    "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\configs\\robustness_volume_v1.json": "451fc7551e60df4acc8e0a989b7586107c457d3cb40ffc6a4edc700fb114f56e",
+    "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\scripts\\automatic_stable_icp.py": "b514feaee10bf2be73b08526cbcaff185498e9d5d7191f403acc6b6b9b0076da",
+    "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\ahk2017_spatial_020m.ply": "8d0726094ab4ab4b9aab19c0669f71fccba0c472cf9426966cd3f1b423f60685"
+  },
+  "algorithm_config_sha256": "cc5831236a103d7491a26751136cb6ae322334120393580049db21f23f4a9509",
+  "grid_step_m": 0.25,
+  "grid_origin_xy_m": [
+    -18.612184821628034,
+    -17.204413881525397
+  ],
+  "grid_shape": [
+    140,
+    142
+  ],
+  "grid_cells": 19880,
+  "global_origin": [
+    652921.5374668216,
+    5189156.600508882,
+    2486.004430603096
+  ],
+  "ROI": "Fixed mother bounding box inset by 0.75 m, selected without using the change mask",
+  "height_estimator": "Delaunay linear interpolation of each observed cloud to cell centers; reject outside hull, long triangles and distant XY support",
+  "integration": "Each method and correct-pose control share the intersection of supported cells for that case; no invalid cell is treated as zero",
+  "truth_comparison": "Error is against known change integrated on that same common support. Full analytical volume and signal coverage are reported separately",
+  "oracle_pose": "Correct transformation applied only in evaluation to quantify interpolation/sampling/noise effects; never supplied to registration workers",
+  "development_vs_new": "Original two cases summarized separately; new seeds/configurations are perturbation tests on the same terrain, not independent geographical validation",
+  "coverage_fraction_definition": "Numerator and denominator use the same fixed-grid absolute-change quadrature; full analytic volume remains a separate field",
+  "evaluation_code_hashes_final": {
+    "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\scripts\\run_robustness_volume.py": "cb6e22deefa26908863a1383e6660975c7e3efcebabd60fd302222935ae5f8a9",
+    "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\scripts\\terrain_volume.py": "7a8aa7bfb412668fe745f03e782ce2acd664ef6d83c06d8b020e56d9a473fc43",
+    "C:\\Users\\85887\\Desktop\\研一\\数据分析与特征提取课程\\大作业\\scripts\\review_robustness_volume.py": "e984e2884fe670305b5250aedbf0c72ca16c17f9ef3517e8eb7ef7cb7ce24bfa"
+  }
+}

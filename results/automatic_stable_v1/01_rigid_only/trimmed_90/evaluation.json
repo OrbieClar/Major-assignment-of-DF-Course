@@ -1,0 +1,20 @@
+{
+  "case": "01_rigid_only",
+  "method": "trimmed_90",
+  "method_label": "固定90%截尾 ICP",
+  "retained_reference_points": 13220,
+  "retained_moving_points": 13155,
+  "icp_iterations": 14,
+  "elapsed_seconds": 0.16975149999962014,
+  "rotation_error_deg": 0.0002872107743415368,
+  "translation_error_mm": 0.04461752475208183,
+  "stable_holdout_pose_rmse_mm": 0.08682593522497467,
+  "stable_holdout_noisy_rmse_mm": 8.724645839219766,
+  "all_point_nn_after_rmse_mm": 70.93183581101154,
+  "change_region_pose_height_mae_mm": null,
+  "rejected_change_precision": null,
+  "rejected_change_recall": null,
+  "rejected_unchanged_fraction": null,
+  "retained_change_points": null,
+  "fallback": false
+}

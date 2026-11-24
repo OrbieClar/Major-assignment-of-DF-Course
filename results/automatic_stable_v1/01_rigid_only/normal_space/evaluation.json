@@ -1,0 +1,20 @@
+{
+  "case": "01_rigid_only",
+  "method": "normal_space",
+  "method_label": "法向空间采样 ICP",
+  "retained_reference_points": 6000,
+  "retained_moving_points": 6000,
+  "icp_iterations": 19,
+  "elapsed_seconds": 0.22489189999942027,
+  "rotation_error_deg": 0.012000244169905722,
+  "translation_error_mm": 6.356834259239455,
+  "stable_holdout_pose_rmse_mm": 7.125978240677584,
+  "stable_holdout_noisy_rmse_mm": 11.436859933822745,
+  "all_point_nn_after_rmse_mm": 71.15059249611923,
+  "change_region_pose_height_mae_mm": null,
+  "rejected_change_precision": null,
+  "rejected_change_recall": null,
+  "rejected_unchanged_fraction": null,
+  "retained_change_points": null,
+  "fallback": false
+}

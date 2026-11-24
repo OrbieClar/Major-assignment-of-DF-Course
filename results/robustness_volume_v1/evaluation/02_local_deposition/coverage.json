@@ -1,0 +1,11 @@
+{
+  "common_cells": 16109,
+  "ROI_cells": 19880,
+  "cell_area_m2": 0.0625,
+  "common_area_m2": 1006.8125,
+  "full_analytic_net_volume_m3": 10.602875205865551,
+  "true_common_net_volume_m3": 10.602912666221341,
+  "volume_signal_coverage_fraction": 1.0000000000000002,
+  "note": "All method errors use common coverage truth, not the full analytical volume; missing area is not zero change",
+  "coverage_denominator": "Same-grid integral of absolute true change over complete planned ROI"
+}

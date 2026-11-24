@@ -1,0 +1,20 @@
+{
+  "case": "02_local_deposition",
+  "method": "pointwise_gate",
+  "method_label": "逐点法向残差筛选（消融）",
+  "retained_reference_points": 11842,
+  "retained_moving_points": 11825,
+  "icp_iterations": 22,
+  "elapsed_seconds": 0.3821946999996726,
+  "rotation_error_deg": 0.0012017597262979076,
+  "translation_error_mm": 0.9382833649740001,
+  "stable_holdout_pose_rmse_mm": 0.9750864111736604,
+  "stable_holdout_noisy_rmse_mm": 8.751005398070347,
+  "all_point_nn_after_rmse_mm": 84.47526070100615,
+  "change_region_pose_height_mae_mm": 0.8395666549880267,
+  "rejected_change_precision": 0.37669172932330824,
+  "rejected_change_recall": 0.677027027027027,
+  "rejected_unchanged_fraction": 0.06677406363270237,
+  "retained_change_points": 239,
+  "fallback": false
+}

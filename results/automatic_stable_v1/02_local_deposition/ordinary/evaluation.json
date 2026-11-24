@@ -1,0 +1,20 @@
+{
+  "case": "02_local_deposition",
+  "method": "ordinary",
+  "method_label": "普通 ICP",
+  "retained_reference_points": 13220,
+  "retained_moving_points": 13155,
+  "icp_iterations": 17,
+  "elapsed_seconds": 0.2087413999997807,
+  "rotation_error_deg": 0.026320414938223628,
+  "translation_error_mm": 7.236009618781679,
+  "stable_holdout_pose_rmse_mm": 9.069962712514082,
+  "stable_holdout_noisy_rmse_mm": 12.473330634605366,
+  "all_point_nn_after_rmse_mm": 84.14094205678185,
+  "change_region_pose_height_mae_mm": 10.730857629483983,
+  "rejected_change_precision": null,
+  "rejected_change_recall": null,
+  "rejected_unchanged_fraction": null,
+  "retained_change_points": null,
+  "fallback": false
+}

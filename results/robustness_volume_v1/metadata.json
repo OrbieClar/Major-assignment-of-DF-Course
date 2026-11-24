@@ -1,0 +1,9 @@
+{
+  "global_origin": [
+    652921.5374668216,
+    5189156.600508882,
+    2486.004430603096
+  ],
+  "coordinate_units": "m",
+  "formula": "source_xyz=local_xyz+global_origin"
+}

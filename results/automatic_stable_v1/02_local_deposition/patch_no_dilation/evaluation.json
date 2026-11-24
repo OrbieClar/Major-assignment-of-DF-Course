@@ -1,0 +1,20 @@
+{
+  "case": "02_local_deposition",
+  "method": "patch_no_dilation",
+  "method_label": "区域筛选、不扩张（消融）",
+  "retained_reference_points": 12788,
+  "retained_moving_points": 12705,
+  "icp_iterations": 24,
+  "elapsed_seconds": 0.4217219000001933,
+  "rotation_error_deg": 0.00614105466887942,
+  "translation_error_mm": 1.6153371380882378,
+  "stable_holdout_pose_rmse_mm": 2.138423835866953,
+  "stable_holdout_noisy_rmse_mm": 8.981676995675022,
+  "all_point_nn_after_rmse_mm": 84.43798749710187,
+  "change_region_pose_height_mae_mm": 1.4863447151322013,
+  "rejected_change_precision": 1.0,
+  "rejected_change_recall": 0.6081081081081081,
+  "rejected_unchanged_fraction": 0.0,
+  "retained_change_points": 290,
+  "fallback": false
+}

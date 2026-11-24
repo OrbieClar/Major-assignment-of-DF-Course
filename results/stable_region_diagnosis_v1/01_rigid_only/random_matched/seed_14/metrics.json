@@ -1,0 +1,15 @@
+{
+  "case": "01_rigid_only",
+  "method": "random_matched",
+  "repeat_index": 14,
+  "fit_reference_points": 12257,
+  "fit_moving_points": 12182,
+  "iterations": 21,
+  "rotation_error_deg": 0.007985406307705136,
+  "translation_error_mm": 1.6397985607331802,
+  "stable_holdout_pose_rmse_mm": 2.642182230868794,
+  "stable_holdout_noisy_rmse_mm": 9.178162213133822,
+  "all_point_nn_after_rmse_mm": 70.92927885766164,
+  "change_region_pose_height_mae_mm": null,
+  "fit_elapsed_seconds": 0.2181361000002653
+}

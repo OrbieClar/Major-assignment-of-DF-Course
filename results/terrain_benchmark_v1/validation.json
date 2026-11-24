@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "checks": {
+    "input_is_finite": true,
+    "holdout_disjoint": true,
+    "rigid_rotation_proper": true,
+    "truth_transform_is_inverse": true,
+    "01_rigid_only_inverse_recovers_noisy_deformed_epoch": true,
+    "01_rigid_only_ply_roundtrip": true,
+    "01_rigid_only_volume_quadrature": true,
+    "01_rigid_only_transform_reproduces_export": true,
+    "02_local_deposition_inverse_recovers_noisy_deformed_epoch": true,
+    "02_local_deposition_ply_roundtrip": true,
+    "02_local_deposition_volume_quadrature": true,
+    "02_local_deposition_transform_reproduces_export": true,
+    "source_hash_unchanged": true,
+    "rigid_only_baseline_rotation_below_005deg": true,
+    "rigid_only_baseline_translation_below_10mm": true,
+    "paired_reference_identical": true,
+    "paired_sampling_and_noise_identical": true,
+    "unchanged_moving_points_identical_between_cases": true,
+    "algorithm_inputs_contain_coordinates_only": true
+  }
+}

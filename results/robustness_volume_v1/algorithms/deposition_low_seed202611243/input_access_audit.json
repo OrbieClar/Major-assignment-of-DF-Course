@@ -1,0 +1,15 @@
+{
+  "dataset_file_accesses": [
+    {
+      "path": "C:\\Users\\85887\\Desktop\\\u7814\u4e00\\\u6570\u636e\u5206\u6790\u4e0e\u7279\u5f81\u63d0\u53d6\u8bfe\u7a0b\\\u5927\u4f5c\u4e1a\\results\\robustness_volume_v1\\datasets\\deposition_low_seed202611243\\inputs.npz",
+      "allowed": true
+    },
+    {
+      "path": "C:\\Users\\85887\\Desktop\\\u7814\u4e00\\\u6570\u636e\u5206\u6790\u4e0e\u7279\u5f81\u63d0\u53d6\u8bfe\u7a0b\\\u5927\u4f5c\u4e1a\\results\\robustness_volume_v1\\datasets\\deposition_low_seed202611243\\inputs.npz",
+      "allowed": true
+    }
+  ],
+  "only_coordinate_input_read": true,
+  "input_sha256": "14016216785e2c4e859e5cc4be28777f9eeb81a72920a95fea2058f918749ae4",
+  "policy": "Audited dataset access after imports/config; all dataset files other than the single coordinate-only inputs.npz are denied"
+}

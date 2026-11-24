@@ -1,0 +1,23 @@
+{
+  "version": "automatic_stable_v1",
+  "max_iterations": 150,
+  "coarse_iterations": 50,
+  "refine_iterations": 100,
+  "tolerance_rmse_m": 1e-9,
+  "normal_neighbors": 24,
+  "patch_spacing_multiplier": 6.0,
+  "minimum_patch_pairs": 12,
+  "residual_sigma_multiplier": 3.0,
+  "residual_sigma_floor_spacing": 0.05,
+  "sign_consistency_fraction": 0.65,
+  "minimum_connected_cells": 3,
+  "dilation_cells": 1,
+  "maximum_match_distance_spacing": 3.0,
+  "minimum_retained_fraction": 0.5,
+  "trimmed_keep_fraction": 0.9,
+  "huber_multiplier": 1.345,
+  "normal_sample_budget": 6000,
+  "normal_azimuth_bins": 8,
+  "normal_cosine_bins": 4,
+  "random_seed": 20261124
+}

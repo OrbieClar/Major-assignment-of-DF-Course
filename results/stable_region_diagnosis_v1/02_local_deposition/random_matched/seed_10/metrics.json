@@ -1,0 +1,15 @@
+{
+  "case": "02_local_deposition",
+  "method": "random_matched",
+  "repeat_index": 10,
+  "fit_reference_points": 12257,
+  "fit_moving_points": 12182,
+  "iterations": 18,
+  "rotation_error_deg": 0.02779427886780016,
+  "translation_error_mm": 7.976751234157946,
+  "stable_holdout_pose_rmse_mm": 9.822313672208256,
+  "stable_holdout_noisy_rmse_mm": 13.01452844254759,
+  "all_point_nn_after_rmse_mm": 84.15006860716318,
+  "change_region_pose_height_mae_mm": 11.332803274569805,
+  "fit_elapsed_seconds": 0.19455250000100932
+}

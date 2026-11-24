@@ -1,0 +1,9 @@
+{
+  "candidate_translation_improvement_over_ordinary_percent": 80.44451063678802,
+  "candidate_beats_best_established_control_translation": false,
+  "best_established_control_by_translation": "huber",
+  "candidate_translation_error_mm": 1.4150370913218466,
+  "best_control_translation_error_mm": 0.6507026502093214,
+  "interpretation": "All first-version results retained. No parameter search using known pose or masks. Current dataset is a development case, not evidence of broad superiority or patent novelty.",
+  "pending": "No py4dgeo/Yang full-method reproduction in this experiment; no volume estimator; robustness across independent terrain/noise/change settings remains to be tested."
+}

@@ -1,0 +1,20 @@
+{
+  "case": "02_local_deposition",
+  "method": "normal_space",
+  "method_label": "法向空间采样 ICP",
+  "retained_reference_points": 6000,
+  "retained_moving_points": 6000,
+  "icp_iterations": 24,
+  "elapsed_seconds": 0.2569108000025153,
+  "rotation_error_deg": 0.03255149574591716,
+  "translation_error_mm": 5.625811921974515,
+  "stable_holdout_pose_rmse_mm": 10.671014834849498,
+  "stable_holdout_noisy_rmse_mm": 13.704647889708655,
+  "all_point_nn_after_rmse_mm": 84.45257225630972,
+  "change_region_pose_height_mae_mm": 8.880226638083027,
+  "rejected_change_precision": null,
+  "rejected_change_recall": null,
+  "rejected_unchanged_fraction": null,
+  "retained_change_points": null,
+  "fallback": false
+}
